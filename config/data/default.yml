@@ -153,7 +153,7 @@ follow_up_page:
   f_name: 'Jessica'
   l_name: 'Pearson'
   address_line_1: '205 N. Nelson rd'
-  zip_code: '43219'
+  zip_code: 'N8N A01'
 
 gift_cert_status:
   status: 'Not Redeemed'
