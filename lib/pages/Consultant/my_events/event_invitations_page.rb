@@ -8,11 +8,19 @@ class EventInvitationsPage
   button(:preview_invite_button, :value => "Preview Invite")
   link(:save_and_continue_to_guest_list, :id => "MasterContentBody1_content_rep_btn_update")
   link(:guest_list, :text => "Guest List")
+  select_list(:invitation_type, :id => "MasterContentBody1_content_rep_radio_type_list")
 
 
   def enter_invitation_details(data ={})
 
     populate_page_with data_for(:event_invitations, data)
+
+    options = invitation_type_element.options.collect { |opt| opt.text}
+
+    puts options[1]
+
+    self.invitation_type = options[1]
+
     save_and_continue_to_guest_list
 
   end

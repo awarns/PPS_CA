@@ -9,6 +9,7 @@ class EventGuestListPage
   text_field(:customer_address, :id => "MasterContentBody1_customer_info_shipping_info_txt_street_1")
   text_field(:customer_zip_code, :id => "MasterContentBody1_customer_info_shipping_info_txtPostalCode")
   text_field(:customer_email, :id => "MasterContentBody1_customer_info_txt_email")
+  text_field(:customer_city, :id => "MasterContentBody1_customer_info_shipping_info_txt_city")
   link(:create_the_order_link, :id => "MasterContentBody1_content_rep_menu_btn_create_order")
   link(:save_link, :id => "MasterContentBody1_btn_save")
   link(:add_guest_link, :id => "MasterContentBody1_content_rep_add_rsvp")
@@ -42,6 +43,7 @@ class EventGuestListPage
 
     send_invites_now
     send_invites_2
+    sleep(10)
 
   end
 
@@ -89,6 +91,7 @@ class EventGuestListPage
 
   def delete_guest
 
+    sleep(3)
     delete
     sleep(5)
 

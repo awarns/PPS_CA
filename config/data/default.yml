@@ -91,25 +91,27 @@ party_event:
   description: 'Andy Automation Party'
   event_details: 'This is an automated test'
   address_line_1: '205 N. Nelson Rd.'
-  zip_code: '43219'
+  zip_code: 'N8N A01'
   email: 'awarns@thirtyonegifts.com'
   password: 'testing31'
   first_name: 'Andy'
   last_name: 'Warns'
   phone: '(419) 202-3773'
+  city: 'Toronto'
+  city_2: 'Toronto'
 
 non_party_event:
   description: 'Andy Automation Non Party'
   event_details: 'Come Spend Money!!'
   address_line_1: '205 N. Nelson Rd.'
-  zip_code: '43219'
+  zip_code: 'N8N A01'
   email: 'awarns@thirtyonegifts.com'
   phone: '(419) 202-3773'
+  city: 'Toronto'
 
 event_invitations:
   invitation_subject: 'Come and Party'
   invitation_message: 'Hey Whats Good in the Hood?'
-  template: 'true'
 
 add_guest:
   email_address: 'awarns@thirtyonegifts.com'
@@ -118,8 +120,9 @@ event_guest_info:
   customer_f_name: 'Andy'
   customer_l_name: 'Warns'
   customer_address: '205 N. Nelson Rd.'
-  customer_zip_code: '43219'
+  customer_zip_code: 'N8N A01'
   customer_email: 'awarns@thirtyonegifts.com'
+  customer_city: 'Toronto'
 
 email_recipient_list:
   add_search: 'awarns@thirtyonegifts.com'

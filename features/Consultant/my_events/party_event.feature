@@ -29,7 +29,7 @@ Background:
 
   Scenario: Send Invitations
     When I send an invitation
-    Then I should see "Emails are scheduled to be sent to the following guests:"
+    Then I should see "Email Invitations will be sent to the following guest(s):"
 
   Scenario: Delete Guest from invite
     When I delete a guest from an invite

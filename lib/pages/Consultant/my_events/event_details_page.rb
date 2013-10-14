@@ -12,6 +12,8 @@ class EventDetailsPage
   text_field(:first_name, :id => "MasterContentBody1_ship_fname")
   text_field(:last_name, :id => "MasterContentBody1_ship_lname")
   text_field(:phone, :id => "ctl00_MasterContentBody1_ship_phone")
+  text_field(:city, :id => "MasterContentBody1_location_block_txt_city")
+  text_field(:city_2, :id => "MasterContentBody1_shipping_info_txt_city")
   link(:copy_link, :id => "copyLink")
   link(:save_and_continue, :id => "MasterContentBody1_btn_update")
   div(:page_text, :class => "full content")
