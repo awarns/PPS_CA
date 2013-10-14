@@ -2,13 +2,14 @@ class MyContactsPage
   include PageObject
   include DataMagic
 
-  button(:add_a_contact, :value => "Add a Contact")
+
   button(:import_contacts_link, :value => "Import Contacts")
-  button(:merge_contact, :value => "Merge Contact")
   button(:merge_contacts, :value => "Merge Contacts")
   button(:go_button, :value => "Go")
   button(:add_note, :value => "+ Add Note")
+  link(:add_a_contact, :id => "MasterContentBody1_lnk_add_customer")
   link(:edit, :text => "Edit")
+  link(:merge_contact, :id => "MasterContentBody1_lnk_merge")
   link(:save_contact, :id => "MasterContentBody1_customer_info_btn_save")
   link(:save_contact_add_another, :id => "MasterContentBody1_customer_info_btn_saveadd")
   link(:cancel, :id => "MasterContentBody1_customer_info_cancelButton")
@@ -18,7 +19,8 @@ class MyContactsPage
   text_field(:cust_f_name, :id => "MasterContentBody1_customer_info_txt_first_name")
   text_field(:cust_l_name, :id => "MasterContentBody1_customer_info_txt_last_name")
   text_field(:cust_address, :id => "MasterContentBody1_customer_info_shipping_info_txt_street_1")
-  text_field(:cust_zip, :id => "MasterContentBody1_customer_info_shipping_info_txtPostalCode")
+  text_field(:cust_post_code, :id => "MasterContentBody1_customer_info_shipping_info_txtPostalCode")
+  text_field(:cust_city, :id => "MasterContentBody1_customer_info_shipping_info_txt_city")
   text_field(:cust_email, :id => "MasterContentBody1_customer_info_txt_email")
   text_field(:contact_to_keep, :id => "MasterContentBody1_content_rep_txt_cust_tloc_keep")
   text_field(:contact_to_delete, :id => "MasterContentBody1_content_rep_txt_cust_tloc_delete")

@@ -23,10 +23,6 @@ Background:
     When I add a note to a contact
     Then I should see "Please enter a note"
 
-  Scenario: Import Contacts
-    When I import a contact
-    Then I should see "Choose Source"
-
   Scenario: Merge Contacts
     When I merge two contacts
     Then I should see "My Contacts"

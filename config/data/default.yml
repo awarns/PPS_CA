@@ -1,5 +1,5 @@
 login_page:
-  consultantID: '102091'
+  consultantID: '231217'
   password: 'testing31'
 
 profile_page:
@@ -138,7 +138,8 @@ contacts_page:
   cust_f_name: 'Louis'
   cust_l_name: 'Litt'
   cust_address: '205 N. Nelson rd.'
-  cust_zip: '43219'
+  cust_post_code: 'N8N A01'
+  cust_city: 'Columbus'
   cust_email: 'awarns@thirtyonegifts.com'
 
 search_contact:
