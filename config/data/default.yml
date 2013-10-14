@@ -80,7 +80,6 @@ downline_page:
 
 downline_filer:
   downline_type: 'List View'
-  ohio: 'true'
   save_filter_as: 'Automation Filter'
 
 checkout:

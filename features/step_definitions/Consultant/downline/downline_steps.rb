@@ -36,3 +36,9 @@ When(/^I delete a filter$/) do
   navigate_to(DownlinePage, :using => :run_downline_report).delete_a_filter
 
 end
+
+When(/^I delete all existing filters$/) do
+
+  navigate_to(DownlinePage, :using => :run_downline_report).delete_all_filters
+
+end

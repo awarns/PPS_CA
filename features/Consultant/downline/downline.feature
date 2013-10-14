@@ -9,6 +9,9 @@ Feature: Downline Report
 Background:
   Given I am on Her Virtual Office
 
+  Scenario: Delete All Existing Filters
+    When I delete all existing filters
+    Then I should see "You don't currently have any saved filters."
 
   Scenario: Run Downline in List View
     When I run my downline report in "List View"
@@ -24,4 +27,4 @@ Background:
     
   Scenario: Delete Filter
     When I delete a filter
-    Then I should see "You don't currently have any saved filters."
+    Then I should not see "Automation Filter"
