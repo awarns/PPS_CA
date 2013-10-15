@@ -39,6 +39,8 @@ class MyEventsHomePage
 
   def cancel_existing_events
 
+    sleep(3)
+
     while table_events =~ /.*Cancel.*/
 
       cancel_event

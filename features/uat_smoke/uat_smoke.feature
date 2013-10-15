@@ -19,14 +19,6 @@ Feature: UAT Smoke Test
     When I Create a Party Event
     Then I should see "Invitations"
 
-  Scenario: Create an Invitation
-    When I create an invitation
-    Then I should see "My Events"
-
-  Scenario: Create a Branded Email
-    When I create a branded email
-    Then I should see "Your email has been sent!"
-
   Scenario: Run Downline in Team View
     When I run my downline report in "Team View"
     Then I should see my Team View downline report
@@ -50,12 +42,12 @@ Feature: UAT Smoke Test
 
   Scenario: Add Items to Order
     When I add an item to a business supply order
-    Then I should see "$64.80"
+    Then I should see "$84.23"
 
   Scenario: Add Items to my Cart ship to host
     Given I am on my consultants replicated site
     When I add items to my party cart for ship to host
-    Then I verify Order Totals, Product: "$65.00", Tax: "$4.74", Shipping : "$5.20", Total: "$74.94"
+    Then I verify Order Totals, Product: "$77.00", Tax: "$10.81", Shipping : "$6.16", Total: "$93.97"
 
   Scenario: Setup Party Order
     When I setup a party order
