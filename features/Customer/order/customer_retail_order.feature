@@ -9,28 +9,28 @@ Background:
 
   Scenario: Add Items To Cart
     When I add items to my retail cart
-    And I verify Order Totals, Product: "$65.00", Tax: "$5.01", Shipping : "$9.20", Total: "$79.21"
+    And I verify Order Totals, Product: "$77.00", Tax: "$11.66", Shipping : "$12.66", Total: "$101.32"
 
   Scenario: Remove Items from Cart
     When I remove items from my retail cart
-    Then I should see "Product Total: $40.00"
+    Then I should see "Product Total: $48.00"
 
   Scenario: Update Quantity from Cart
     When I update the quantity of an item in my retail customer cart
-    Then I should see "Product Total: $105.00"
+    Then I should see "Product Total: $126.00"
 
   Scenario: Update Personalization from Cart
     When I update the personalization options of an item in my retail customer cart
-    Then I should see "Product Total: $25.00"
+    Then I should see "Product Total: $29.00"
 
   Scenario: Checkout with 31Gives on Order
     When I submit a customer retail order with 31gives
-    Then I should see "Outstanding Balance: $80.00"
+    Then I should see "Outstanding Balance: $102.00"
     And I submit my customer order
 
   Scenario: Checkout with out 31Gives on Order
     When I submit a customer retail order without 31gives
-    Then I should see "Outstanding Balance: $79.21"
+    Then I should see "Outstanding Balance: $101.32"
     And I submit my customer order
 
   Scenario: Delete Payment

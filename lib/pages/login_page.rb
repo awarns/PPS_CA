@@ -61,6 +61,7 @@ class LoginPage
     search_by_name_and_location
     sleep(5)
     select_this_consultant
+    sleep(5)
 
 
   end

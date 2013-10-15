@@ -5,6 +5,7 @@ class YourInvoicePage
 
   button(:pay_for_order_button, :value => "Pay For Order")
   checkbox(:terms_and_conditions, :id => "MasterContentBody1_content_rep_cbTermsConditions")
+  checkbox(:terms_and_conditions_cst, :id => "MasterContentBody1_PageContent_cbTermsConditions")
   link(:change_shipping_info, :text => "Change Shipping Information")
   link(:back_to_products, :id => "MasterContentBody1_content_rep_HyperLink1")
   link(:view_cart, :text => "View Cart")
@@ -54,7 +55,7 @@ class YourInvoicePage
 
   def cst_pay_for_order
 
-
+    check_terms_and_conditions_cst
     cst_pay_for_order_link
     sleep(1)
     ok_return_policy

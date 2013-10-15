@@ -63,7 +63,7 @@ class SubmittingOrderPage
       sleep(3)
 
 
-      if submit_message =~ /.*Order.*/
+      if cst_submit_message =~ /.*Thank You.*/
 
         count = 5
 

@@ -14,32 +14,32 @@ Background:
 
   Scenario: Add Items to my Cart ship to host
     When I add items to my party cart for ship to host
-    Then I verify Order Totals, Product: "$65.00", Tax: "$4.74", Shipping : "$5.20", Total: "$74.94"
+    Then I verify Order Totals, Product: "$77.00", Tax: "$10.81", Shipping : "$6.16", Total: "$93.97"
 
   Scenario: Add Items to my Cart direct ship
     When I add items to my party cart for direct ship
-    Then I verify Order Totals, Product: "$65.00", Tax: "$5.01", Shipping : "$9.20", Total: "$79.21"
+    Then I verify Order Totals, Product: "$77.00", Tax: "$11.66", Shipping : "$12.66", Total: "$101.32"
 
   Scenario: Remove Items from Cart
     When I remove items from my party cart
-    Then I should see "Product Total: $40.00"
+    Then I should see "Product Total: $48.00"
 
   Scenario: Update Quantity from Cart
     When I update the quantity of an item in my party customer cart
-    Then I should see "Product Total: $105.00"
+    Then I should see "Product Total: $126.00"
 
   Scenario: Update Personalization from Cart
     When I update the personalization options of an item in my party customer cart
-    Then I should see "Product Total: $25.00"
+    Then I should see "Product Total: $29.00"
 
   Scenario: Checkout with 31Gives on Order - Ship to Host
     When I submit a customer party order with ship to host order with 31gives
-    Then I should see "Outstanding Balance: $75.00"
+    Then I should see "Outstanding Balance: $94.00"
     And I submit my customer order
 
   Scenario: Checkout with 31Gives on Order - Direct Ship
     When I submit a customer party order with direct ship order with 31gives
-    Then I should see "Outstanding Balance: $80.00"
+    Then I should see "Outstanding Balance: $102.00"
     And I submit my customer order
 
   Scenario: Delete Payment
@@ -52,7 +52,7 @@ Background:
   Scenario: Verify Order as Consultant and Submit
     When I am on Her Virtual Office
     And I create my party order as a consultant
-    Then I verify my party order totals,Retail:"$130.85",Volume:"$130.00",Subtotal:"$130.85",ShipHand:"$14.40",Tax:"$9.75",Total:"$155.00"
+    Then I verify my party order totals,Retail:"$154.71",Volume:"$154.71",Subtotal:"$154.71",ShipHand:"$18.82",Tax:"$22.47",Total:"$196.00"
     And I submit my party event order
 
 

@@ -169,9 +169,9 @@ fac_email:
   my_email_address: 'awarns@thirtyonegifts.com'
 
 fac_her_name:
-  consultant_f_name: 'Kelley'
-  consultant_l_name: 'Fullen'
-  consultant_state: 'Ohio'
+  consultant_f_name: 'Jennifer'
+  consultant_l_name: 'Lovelady'
+  consultant_state: 'Ontario'
 
 fac_need_cns:
   search_f_name: 'Andy'
@@ -190,19 +190,21 @@ cst_qty:
   qty: '1'
 
 cst_shipping_retail:
-  cst_first_name: 'Andy'
-  cst_last_name: 'Warns'
   cst_address_line_1: '205 N. Nelson Rd.'
   cst_zip_code: 'N8N 1H1'
+  cst_first_name: 'Andy'
+  cst_last_name: 'Warns'
   cst_email: 'awarns@thirtyonegifts.com'
+  cst_city: 'Toronto'
 
 cst_shipping_party:
+  cst_address_line_1: '205 N. Nelson Rd.'
+  cst_zip_code: 'N8N 1H1'
   ship_to_host: false
   cst_first_name: 'Harvey'
   cst_last_name: 'Specter'
-  cst_address_line_1: '205 N. Nelson Rd.'
-  cst_zip_code: 'N8N 1H1'
   cst_email: 'awarns@thirtyonegifts.com'
+  cst_city: 'Toronto'
 
 customer_search_ord_hist:
   f_name: 'Andy'

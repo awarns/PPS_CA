@@ -10,6 +10,7 @@ class CstCheckoutShippingInfoPage
   text_field(:cst_address_line_1, :id => "MasterContentBody1_PageContent_shipping_info_txt_street_1")
   text_field(:cst_zip_code, :id => "MasterContentBody1_PageContent_shipping_info_txtPostalCode")
   text_field(:cst_email, :id => "MasterContentBody1_PageContent_email")
+  text_field(:cst_city, :id => "MasterContentBody1_PageContent_shipping_info_txt_city")
 
   def enter_cst_shipping_info_retail(data ={})
 

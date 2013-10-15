@@ -13,31 +13,31 @@ Background:
 
   Scenario: Locate Consultant by her name
     When I find a consultant using her name
-    And I should see "Kelley Fullen"
+    And I should see "Jennifer Lovelady"
 
   Scenario: Verify still cookied to consultant
     When I find a consultant using her name
-    And I should see "Kelley Fullen"
+    And I should see "Jennifer Lovelady"
     When I am on the Connect with a Consultant Page
-    And I should see "Kelley Fullen"
+    And I should see "Jennifer Lovelady"
 
   Scenario: I need a consultant
     When I use I need a consultant
-    And I should not see "Kelley Fullen"
+    And I should not see "Jennifer Lovelady"
 
   Scenario: Switching Consultants and nav to site just one time
     When I find a consultant using her name
-    Then I should see "Kelley Fullen"
+    Then I should see "Jennifer Lovelady"
     And I switch consultants as a one time opportunity
-    Then I should not see "Kelley Fullen"
+    Then I should not see "Jennifer Lovelady"
     And I am on the Connect with a Consultant Page
-    Then I should see "Kelley Fullen"
+    Then I should see "Jennifer Lovelady"
     
   Scenario: Switching Consultants and update preferred Consultant 
     When I find a consultant using her name
-    Then I should see "Kelley Fullen"
+    Then I should see "Jennifer Lovelady"
     And I switch consultants permanently
-    Then I should not see "Kelley Fullen"
+    Then I should not see "Jennifer Lovelady"
     And I am on the Connect with a Consultant Page
-    Then I should not see "Kelley Fullen"
+    Then I should not see "Jennifer Lovelady"
 
