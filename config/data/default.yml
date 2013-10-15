@@ -6,7 +6,7 @@ profile_page:
   ship_f_name: 'Andy'
   ship_l_name: 'Warns'
   ship_street_1: '205 N. Nelson rd.'
-  zip: '43219'
+  zip: 'N8N 1H1'
 
 additional_info_page:
   home_phone: '(419)202-3773'
@@ -91,7 +91,7 @@ party_event:
   description: 'Andy Automation Party'
   event_details: 'This is an automated test'
   address_line_1: '205 N. Nelson Rd.'
-  zip_code: 'N8N A01'
+  zip_code: 'N8N 1H1'
   email: 'awarns@thirtyonegifts.com'
   password: 'testing31'
   first_name: 'Andy'

@@ -8,7 +8,7 @@ Background:
 
   Scenario: Add Items to Order
     When I add an item to a business supply order
-    Then I should see "$64.80"
+    Then I should see "$84.23"
 
   Scenario: Place Order
     When I continue my order
