@@ -4,7 +4,7 @@ class ConsultantReplicatedSitePage
   include DataMagic
 
 
-  page_url "#{FigNewton.base_url}/102091"
+  page_url "#{FigNewton.base_url}/231217"
 
   div(:header_text, :id => "header-rep-info")
   link(:my_parties, :text => "My Parties")
