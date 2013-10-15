@@ -9,25 +9,29 @@ class SubmittingOrderPage
   table(:order_history_table, :id => "MasterContentBody1_content_rep_data_orders")
 
 
-
   def verify_submission
+
+    sleep(5)
+
+    puts submit_message
 
     count = 1
 
     while count < 4
 
-      while submit_message !~ /.*Thank You.*/
+      sleep(3)
 
-        sleep(3)
+
+      if submit_message =~ /.*Order.*/
+
+        count = 5
+
+      else
+
         count = count + 1
 
-        if submit_message =~ /.*Thank You.*/
-
-          count = 5
-
-        end
-
       end
+
 
     end
 
@@ -48,7 +52,6 @@ class SubmittingOrderPage
     order_history_table.should =~ /.*#{@ordernumber}.*/
 
 
-
   end
 
   def cst_verify_submission
@@ -57,20 +60,18 @@ class SubmittingOrderPage
 
     while count < 4
 
-      while cst_submit_message !~ /.*Thank You.*/
+      sleep(3)
 
-        sleep(3)
+
+      if submit_message =~ /.*Order.*/
+
+        count = 5
+
+      else
+
         count = count + 1
 
-        if cst_submit_message =~ /.*Thank You.*/
-
-          count = 5
-
-        end
-
       end
-
-    end
 
   end
 

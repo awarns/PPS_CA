@@ -4,6 +4,7 @@ class YourInvoicePage
 
 
   button(:pay_for_order_button, :value => "Pay For Order")
+  checkbox(:terms_and_conditions, :id => "MasterContentBody1_content_rep_cbTermsConditions")
   link(:change_shipping_info, :text => "Change Shipping Information")
   link(:back_to_products, :id => "MasterContentBody1_content_rep_HyperLink1")
   link(:view_cart, :text => "View Cart")
@@ -11,7 +12,6 @@ class YourInvoicePage
   button(:yes_31gives) { |page| page.div_element(:id => "RadWindowWrapper_ctl00_ctl00_MasterContentBody1_PageContent_RadWindow1").button_element(:text => "Yes")}
   button(:no_31gives) { |page| page.div_element(:id => "RadWindowWrapper_ctl00_ctl00_MasterContentBody1_PageContent_RadWindow1").button_element(:text => "No")}
   link(:cst_pay_for_order_link, :id => "MasterContentBody1_PageContent_btnOffer")
-
   table(:table_totals, :id => "MasterContentBody1_content_rep_DataGrid1")
 
   page_url "#{FigNewton.base_url}/forms/frm_temp_invoice.aspx"
@@ -45,6 +45,8 @@ class YourInvoicePage
 
   def pay_for_order
 
+    sleep(2)
+    check_terms_and_conditions
     sleep(4)
     pay_for_order_button
 

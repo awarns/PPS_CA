@@ -4,7 +4,8 @@ When(/^I order a gift certificate$/) do
   on(ProductInformationPage).add_product_to_cart
   sleep(5)
   on(ProductInformationPage).go_back_to_products
-  navigate_all(:using => :retail_checkout)
+  navigate_to(SubmittingOrderPage,:using => :retail_checkout)
+  sleep(5)
 
 end
 
