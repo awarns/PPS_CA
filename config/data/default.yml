@@ -32,11 +32,11 @@ enter_check_info:
   name_on_check: 'Andy Warns'
 
 enter_direct_deposit:
-  bank_name: 'Wells Fargo'
-  routing_number: '314074269'
+  bank_number: '011'
+  branch_number: '01002'
   account_number: '123456'
   confirm_account_number: '123456'
-  account_type: ~randomize ['Checking', 'Savings']
+  name_on_account: 'Andy Canada'
 
 personalize_website:
   name_to_show: 'Andy Warns'
