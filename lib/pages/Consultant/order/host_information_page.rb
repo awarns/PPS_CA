@@ -9,6 +9,7 @@ class HostInformationPage
   text_field(:party_address, :id => "MasterContentBody1_shipping_info_txt_street_1")
   text_field(:party_zip_code, :id => "MasterContentBody1_shipping_info_txtPostalCode")
   text_field(:party_email, :id => "MasterContentBody1_email")
+  text_field(:party_city, :id => "MasterContentBody1_shipping_info_txt_city")
   link(:save_and_continue, :id => "MasterContentBody1_btn_save")
   div(:page_text, :class => "uic-main")
 

@@ -18,7 +18,10 @@ class OrderDetailsPage
   select_list(:customer_list, :id => "CustomerList")
   link(:add_guest_link, :id => "lnk_add_guest")
 
+
+
   in_frame(:id => "frm_bottom") do |frame|
+
     button(:add_to_order, :value => "Add To Order", :frame => frame)
     link(:remove_1, :text => "Remove", :index => 4, :frame => frame)
     link(:remove_2, :text => "Remove", :index => 7, :frame => frame)
@@ -83,7 +86,14 @@ class OrderDetailsPage
   def party_personalize_item_with_none
 
     sleep(2)
-    add_to_order
+
+    if add_to_order_element.exists?
+
+      add_to_order
+
+    end
+
+
     sleep(2)
     self.select_pers_option = "None"
     sleep(2)

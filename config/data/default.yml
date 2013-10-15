@@ -57,20 +57,22 @@ shop_online_page_prod_1:
    product_search: '3057'
 
 host_information:
+  party_address: '205 N. Nelson Rd'
+  party_zip_code: 'N8N 1H1'
   party_date: '6/6/2013'
   party_f_name: 'Andy'
   party_l_name: 'Warns'
-  party_address: '205 N. Nelson Rd'
-  party_zip_code: 'N8N 1H1'
   party_email: 'awarns@thirtyonegifts.com'
+  party_city: 'Columbus'
 
 add_guest_party:
+  guest_address: '4 Pennsylvania Plaza'
+  guest_zip: 'N8N 1H1'
   ship_to_hostess: false
   guest_f_name: 'Harvey'
   guest_l_name: 'Specter'
-  guest_address: '4 Pennsylvania Plaza'
-  guest_zip: '10001'
   guest_email: 'awarns@thirtyonegifts.com'
+  guest_city: 'Toronto'
 
 add_party_item:
   customer_list: 'Harvey Specter'

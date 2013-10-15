@@ -7,7 +7,6 @@ end
 
 When(/^Add a ship to host guest to my party$/) do
 
-
   navigate_to(GuestInformationPage, :using => :party_order_add_guest).add_guest(:ship_to_hostess => 'True')
 
 end
@@ -45,7 +44,7 @@ end
 
 When(/^I add an exclusive hostess offer price item to my order$/) do
 
-  on(OrderDetailsPage).add_item_to_party_order(:customer_list => "Exclusive Hostess Offer", :item_code => "4094")
+  on(OrderDetailsPage).add_item_to_party_order(:customer_list => "Exclusive Hostess Offer", :item_code => "3848821A0000")
   on(OrderDetailsPage).party_personalize_item_with_none
 
 end

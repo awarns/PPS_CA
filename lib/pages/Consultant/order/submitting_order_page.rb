@@ -73,7 +73,10 @@ class SubmittingOrderPage
 
       end
 
+    end
+
   end
+
 
   def cst_propay_verify
 

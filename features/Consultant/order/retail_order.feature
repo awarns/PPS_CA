@@ -19,18 +19,18 @@ Background:
     And I personalize using Embroidery
     And I Add product "3244" to my cart
     And I personalize using Icon-It No Text
-    Then I verify Order Totals, Product: "$72.00", Tax: "$5.52", Shipping : "9.76", Total: "$87.28"
+    Then I verify Order Totals, Product: "$84.00", Tax: "$12.64", Shipping : "13.22", Total: "$109.86"
 
   Scenario: Remove Item From Cart
     When I continue my order with items in my cart
     And I Remove Item "1" from my cart
-    Then I verify Order Totals, Product: "$47.00", Tax: "$3.70", Shipping : "$7.76", Total: "$58.46"
+    Then I verify Order Totals, Product: "$55.00", Tax: "$8.57", Shipping : "$10.90", Total: "$74.47"
 
   Scenario: Update Item From Cart
     When I continue my order with items in my cart
     And I update an item in my cart
     And I personalize using none
-    Then I verify Order Totals, Product: "$87.00", Tax: "$6.61", Shipping : "$10.96", Total: "$104.57"
+    Then I verify Order Totals, Product: "$103.00", Tax: "$15.31", Shipping : "$14.74", Total: "$133.05"
 
   Scenario: Add 31Gives To Order
     When I continue my order with items in my cart
