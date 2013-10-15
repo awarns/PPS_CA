@@ -54,7 +54,7 @@ class AddressInfoPage
     self.mail_f_name.should == "Andy"
     self.mail_l_name.should == "Warns"
     self.mail_street_1.should == "205 N. Nelson rd."
-    self.mail_zip.should == "43219"
+    self.mail_zip.should == "N8N 1H1"
 
   end
 
