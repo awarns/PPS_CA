@@ -1,0 +1,3 @@
+default: FIG_NEWTON_FILE=default.yml --no-source --color --format pretty --tags ~@uat_smoke
+uat_smoke: FIG_NEWTON_FILE=default.yml --no-source --color --format PrettyFace::Formatter::Html --out results/index.html --tags @uat_smoke
+prod_smoke: FIG_NEWTON_FILE=prod.yml --no-source --color --format pretty --tags @prod_smoke

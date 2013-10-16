@@ -1,0 +1,220 @@
+login_page:
+  consultantID: '231217'
+  password: 'testing31'
+
+profile_page:
+  ship_f_name: 'Andy'
+  ship_l_name: 'Warns'
+  ship_street_1: '205 N. Nelson rd.'
+  zip: 'N8N 1H1'
+
+additional_info_page:
+  home_phone: '(419)202-3773'
+  work_phone: '(419)898-1545'
+  email: 'awarns@thirtyonegifts.com'
+
+manage_cc:
+  cc_name: 'Andy Warns'
+  cc_number: '4111111111111111'
+  cc_exp_date: '1215'
+  cc_address: '205 N. Nelson rd.'
+  cc_zip: 'N8N 1H1'
+
+edit_cc:
+  cc_name: 'Edit Card'
+
+change_password_page:
+  old_pass: 'testing31'
+  new_pass: 'testing31'
+  new_pass_confirm: 'testing31'
+
+enter_check_info:
+  name_on_check: 'Andy Warns'
+
+enter_direct_deposit:
+  bank_number: '011'
+  branch_number: '01002'
+  account_number: '123456'
+  confirm_account_number: '123456'
+  name_on_account: 'Andy Canada'
+
+personalize_website:
+  name_to_show: 'Andy Warns'
+  my_website_name: 'awarns'
+  meta_description: 'This is an automated script typing'
+  meta_keywords: 'This is so cool'
+
+retail_shipping_info_page:
+  address: '205 N. Nelson rd'
+  zip_code: 'N8N 1H1'
+  first_name: 'Andy'
+  last_name: 'Warns'
+  email: 'awarns@thirtyonegifts.com'
+  city: 'Toronto'
+  zip_code: 'N8N 1H1'
+
+shop_online_page_prod_1:
+   product_search: '3057'
+
+host_information:
+  party_address: '205 N. Nelson Rd'
+  party_zip_code: 'N8N 1H1'
+  party_date: '6/6/2013'
+  party_f_name: 'Andy'
+  party_l_name: 'Warns'
+  party_email: 'awarns@thirtyonegifts.com'
+  party_city: 'Columbus'
+
+add_guest_party:
+  guest_address: '4 Pennsylvania Plaza'
+  guest_zip: 'N8N 1H1'
+  ship_to_hostess: false
+  guest_f_name: 'Harvey'
+  guest_l_name: 'Specter'
+  guest_email: 'awarns@thirtyonegifts.com'
+  guest_city: 'Toronto'
+
+add_party_item:
+  customer_list: 'Harvey Specter'
+  item_code: '3057'
+  quantity: '1'
+
+downline_page:
+  downline_type: 'List View'
+
+downline_filer:
+  downline_type: 'List View'
+  save_filter_as: 'Automation Filter'
+
+checkout:
+  :card_number: '4111111111111111'
+  :card_exp_date: '1215'
+  :amount: '0.00'
+
+party_event:
+  description: 'Andy Automation Party'
+  event_details: 'This is an automated test'
+  address_line_1: '205 N. Nelson Rd.'
+  zip_code: 'N8N 1H1'
+  email: 'awarns@thirtyonegifts.com'
+  password: 'testing31'
+  first_name: 'Andy'
+  last_name: 'Warns'
+  phone: '(419) 202-3773'
+  city: 'Toronto'
+  city_2: 'Toronto'
+
+non_party_event:
+  description: 'Andy Automation Non Party'
+  event_details: 'Come Spend Money!!'
+  address_line_1: '205 N. Nelson Rd.'
+  zip_code: 'N8N 1H1'
+  email: 'awarns@thirtyonegifts.com'
+  phone: '(419) 202-3773'
+  city: 'Toronto'
+
+event_invitations:
+  invitation_subject: 'Come and Party'
+  invitation_message: 'Hey Whats Good in the Hood?'
+
+add_guest:
+  email_address: 'awarns@thirtyonegifts.com'
+
+event_guest_info:
+  customer_f_name: 'Andy'
+  customer_l_name: 'Warns'
+  customer_address: '205 N. Nelson Rd.'
+  customer_zip_code: 'N8N 1H1'
+  customer_email: 'awarns@thirtyonegifts.com'
+  customer_city: 'Toronto'
+
+email_recipient_list:
+  add_search: 'awarns@thirtyonegifts.com'
+  ddl_add_options: 'Contacts: Email'
+
+send_email:
+  copy_yourself: 'true'
+  subject: 'This is An Email from Andy'
+
+customer_service:
+  subject: 'I need help now!!!'
+  message: 'I need some assistance.'
+
+contacts_page:
+  cust_f_name: 'Louis'
+  cust_l_name: 'Litt'
+  cust_address: '205 N. Nelson rd.'
+  cust_post_code: 'N8N 1H1'
+  cust_city: 'Columbus'
+  cust_email: 'awarns@thirtyonegifts.com'
+
+search_contact:
+  search: 'Litt'
+  search_in: 'Last Name'
+  from: 'All'
+
+follow_up_page:
+  option_1: 'true'
+  option_2: 'true'
+  option_3: 'true'
+  f_name: 'Jessica'
+  l_name: 'Pearson'
+  address_line_1: '205 N. Nelson rd'
+  zip_code: 'N8N 1H1'
+
+gift_cert_status:
+  status: 'Not Redeemed'
+
+fac_email:
+  my_email_address: 'awarns@thirtyonegifts.com'
+
+fac_her_name:
+  consultant_f_name: 'Jennifer'
+  consultant_l_name: 'Lovelady'
+  consultant_state: 'Ontario'
+
+fac_need_cns:
+  search_f_name: 'Andy'
+  search_l_name: 'Warns'
+  search_address: '205 N. Nelson Rd.'
+  search_zip_code: 'N8N 1H1'
+  search_email: 'awarns@thirtyonegifts.com'
+  option_1: 'true'
+  option_2: 'true'
+  option_3: 'true'
+
+cst_add_prod:
+  search_for_item: '3000'
+
+cst_qty:
+  qty: '1'
+
+cst_shipping_retail:
+  cst_address_line_1: '205 N. Nelson Rd.'
+  cst_zip_code: 'N8N 1H1'
+  cst_first_name: 'Andy'
+  cst_last_name: 'Warns'
+  cst_email: 'awarns@thirtyonegifts.com'
+  cst_city: 'Toronto'
+
+cst_shipping_party:
+  cst_address_line_1: '205 N. Nelson Rd.'
+  cst_zip_code: 'N8N 1H1'
+  ship_to_host: false
+  cst_first_name: 'Harvey'
+  cst_last_name: 'Specter'
+  cst_email: 'awarns@thirtyonegifts.com'
+  cst_city: 'Toronto'
+
+customer_search_ord_hist:
+  f_name: 'Andy'
+  l_name: 'Warns'
+
+employee_login:
+  employee_id: '1387'
+  employee_password: 'testing31'
+
+csr_search:
+  id_number: '102091'
+
+
