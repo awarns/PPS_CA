@@ -34,6 +34,7 @@ class EventGuestListPage
 
     populate_page_with data_for(:add_guest, data)
     add_guest_link
+    sleep(2)
     populate_page_with data_for(:event_guest_info, data)
     save_link
 

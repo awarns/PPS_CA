@@ -16,7 +16,7 @@ class AccountBalancePage
   def search_account_balance
 
     sleep(3)
-    @order = acct_balance_table_element[2][1].text
+    @order = acct_balance_table_element[1][1].text
 
     self.order_number = @order
     go_button

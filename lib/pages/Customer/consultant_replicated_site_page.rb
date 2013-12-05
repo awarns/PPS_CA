@@ -6,7 +6,7 @@ class ConsultantReplicatedSitePage
 
   page_url "#{FigNewton.base_url}/231217"
 
-  div(:header_text, :id => "header-rep-info")
+  div(:header_text, :id => "rep-template")
   link(:my_parties, :text => "My Parties")
   link(:lets_party, :text => "Let's Party")
   link(:place_an_order, :text => "Place an Order")
