@@ -28,7 +28,7 @@ Background:
   Scenario: Add Hostess Credit
     When I continue my order
     And I add a hostess credit item to my order
-    Then I verify my party order totals,Retail:"$332.00",Volume:"$332.00",Subtotal:"$332.00",ShipHand:"$31.06",Tax:"$43.94",Total:"$382.00"
+    Then I verify my party order totals,Retail:"$332.00",Volume:"$307.00",Subtotal:"$307.00",ShipHand:"$31.06",Tax:"$43.33",Total:"$381.39"
     And I verify the Party Hostess Totals Hostess Plan Base Amt "$248.00" Hostess Half Price "1 / 0" Hostess Credit "$25.00 / $0.00" Exclusive Hostess Offer "1 / 0" Hostess Overage "$59.00"
 
   Scenario: Add exclusive hostess offer

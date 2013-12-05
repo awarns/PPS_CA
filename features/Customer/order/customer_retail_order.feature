@@ -7,6 +7,12 @@ Feature: Customer Retail Order
 Background:
   Given I am on my consultants replicated site
 
+
+  Scenario: Cancel Event
+  When I am on Her Virtual Office
+  When I cancel my open events
+  Then I should see "You have not created any events."
+
   Scenario: Add Items To Cart
     When I add items to my retail cart
     And I verify Order Totals, Product: "$77.00", Tax: "$11.66", Shipping : "$12.66", Total: "$101.32"

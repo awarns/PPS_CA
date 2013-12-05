@@ -26,10 +26,6 @@ Background:
     When I edit a guest invited to a party
     Then I should see a Yes RSVP
 
-  Scenario: Preview Invitations
-    When I preview an invite
-    Then I should see the invite
-
   Scenario: Send Invitations
     When I send an invitation
     Then I should see "Email Invitations will be sent to the following guest(s):"

@@ -7,6 +7,11 @@ Feature: Customer Party Order
 Background:
   Given I am on my consultants replicated site
 
+  Scenario: Cancel Event
+  When I am on Her Virtual Office
+  When I cancel my open events
+  Then I should see "You have not created any events."
+
   Scenario: Setup Event
     When I am on Her Virtual Office
     When I Create a Party Event

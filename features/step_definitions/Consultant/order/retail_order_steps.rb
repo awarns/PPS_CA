@@ -69,7 +69,7 @@ When(/^I change my shipping information$/) do
 
  visit YourInvoicePage
  on(YourInvoicePage).click_change_shipping_info
- on(ShippingInformationPage).enter_retail_shipping_info(:address => '111 S Figueroa St', :zip_code => '90015')
+ on(ShippingInformationPage).enter_retail_shipping_info(:address => '111 S Figueroa St', :zip_code => 'N8N 1A1')
 
 end
 
